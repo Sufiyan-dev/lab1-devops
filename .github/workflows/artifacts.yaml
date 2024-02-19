@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Generate text file
-      run: node generate-file.js
+      run: node 2.generate-file.js
 
     - name: Archive artifacts
       uses: actions/upload-artifact@v2
